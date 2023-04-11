@@ -16,9 +16,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Enumerable with class and module <a name="about-project"></a>
+# 📖 OOP school library <a name="about-project"></a>
 
-A simple implementation of Enumerable with class and module.
+School Library is a CLI app write with ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -29,6 +29,12 @@ A simple implementation of Enumerable with class and module.
 - Technologies Used: GIT, GITHUB, LINTERS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Key Features <a name="key-features"></a>
+
+- **CRUD Book**
+- **OOP Design Patterns**
+- **List rents**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -42,21 +48,21 @@ In order to run this project you need:
 
 ### Setup
 
-- Clone this repo <https://github.com/huzaifakhan0308/morse-code-massage>
+Clone the repo, and install the dependencies
 
-  ```bash
-  git clone https://github.com/huzaifakhan0308/morse-code-massage.git
-  ```
+### Install
 
-- Navigate to morse-code-massage folder/directory
+Install this project with:
+```sh
+bundle
+```
 
-  ```bash
-  cd morse-code-massage
-  ```
+### Usage
 
-- On the command line, at the project's root, run `bundle install` to install app dependencies
-
-- Next, run `ruby morse-code-massage.rb` which will run the app in the development mode.
+To run the project, execute the following command:
+```sh
+ruby main.rb
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,12 +73,6 @@ In order to run this project you need:
 - GitHub: [@huzaifakhan0308](https://github.com/huzaifakhan0308)
 - Twitter: [@huzaifakhan0308](https://twitter.com/home?lang=en)
 - LinkedIn: [huzaifa khan](https://www.linkedin.com/in/huzaifa-khan-938140256/)
-
-👤 **James Serengia**
-
-- GitHub: [@serengia](https://github.com/serengia)
-- Twitter: [@jamesserengia](https://twitter.com/jamesserengia)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/james-serengia)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +86,7 @@ In order to run this project you need:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/huzaifakhan0308/morse-code-massage/issues).
+Feel free to check the [issues page](https://github.com/huzaifakhan0308/OOP-school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
