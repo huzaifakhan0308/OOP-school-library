@@ -42,21 +42,27 @@ class App
     print 'Name: '
     name = gets.chomp
 
-    person = if person_type == '1'
-               print 'Has parent permission? [Y/N]: '
-               parent_permission = gets.chomp
-               parent_permission = parent_permission.downcase == 'y'
+    if person_type == '1'
+      create_student(age, name)
+    else
+      create_teacher(age, name)
+    end
 
-               Student.new(age, nil, name, parent_permission: parent_permission)
-             else
-               print 'Specialization: '
-               specialization = gets.chomp
-
-               Teacher.new(age, specialization, name)
-             end
-
-    @people << person
     puts 'Person created successfully'
+  end
+
+  def create_student(age, name)
+    print 'Has parent permission? [Y/N]: '
+    parent_permission = gets.chomp.downcase == 'y'
+
+    @people << Student.new(age, nil, name, parent_permission: parent_permission)
+  end
+
+  def create_teacher(age, name)
+    print 'Specialization: '
+    specialization = gets.chomp
+
+    @people << Teacher.new(age, specialization, name)
   end
 
   def create_book
@@ -100,7 +106,7 @@ class App
     print 'ID of person: '
     id = gets.chomp
 
-    selected_rentals = @rentals.select { |rental| rental.person.id == id }
+    selected_rentals = @rentals.select { |rental| rental.person.id == id.to_i }
 
     return puts "No rentals found for ID(#{id})" if selected_rentals.empty?
 
