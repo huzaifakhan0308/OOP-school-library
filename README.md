@@ -53,6 +53,7 @@ Clone the repo, and install the dependencies
 ### Install
 
 Install this project with:
+
 ```sh
 bundle
 ```
@@ -60,6 +61,7 @@ bundle
 ### Usage
 
 To run the project, execute the following command:
+
 ```sh
 ruby main.rb
 ```
@@ -73,6 +75,12 @@ ruby main.rb
 - GitHub: [@huzaifakhan0308](https://github.com/huzaifakhan0308)
 - Twitter: [@huzaifakhan0308](https://twitter.com/home?lang=en)
 - LinkedIn: [huzaifa khan](https://www.linkedin.com/in/huzaifa-khan-938140256/)
+
+👤 **Ermiyas Demsew**
+
+- GitHub: [@The-Normal-One1](https://github.com/The-Normal-One1)
+- Twitter: [@DemsewErmiyas](https://twitter.com/DemsewErmiyas)
+- LinkedIn: [@Ermiyas Demsew](https://www.linkedin.com/in/ermiyas-demsew-616b1b19a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
