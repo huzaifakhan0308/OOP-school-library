@@ -18,7 +18,6 @@
 
 # 📖 OOP school library <a name="about-project"></a>
 
-School Library is a CLI app write with ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
