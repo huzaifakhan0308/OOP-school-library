@@ -2,9 +2,11 @@ require_relative 'app'
 
 APP = App.new
 
-begin
-  puts 'Welcome to School Library App!'
+at_exit { APP.add_data }
 
+begin
+  APP.load_data
+  puts 'Welcome to School Library App!'
   loop do
     puts "\nPlease choose an option by entering a number:
     1 - List all books
