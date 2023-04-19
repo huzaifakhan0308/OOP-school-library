@@ -5,6 +5,7 @@ require_relative 'teacher'
 require_relative 'rental'
 require 'json'
 
+# rubocop:disable Metrics/ClassLength
 class App
   def initialize
     @books = []
@@ -216,3 +217,4 @@ class App
     end
   end
 end
+# rubocop:enable Metrics/ClassLength
