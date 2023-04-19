@@ -12,5 +12,12 @@
     "id": 409,
     "age": "30",
     "specialization": "software engineer"
+  },
+  {
+    "class": "Student",
+    "name": "Ermiyas",
+    "id": 59,
+    "age": "26",
+    "parent_permission": true
   }
 ]
