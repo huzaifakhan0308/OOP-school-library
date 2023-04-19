@@ -34,5 +34,17 @@
       "Name": "Ermiyas",
       "id": 59
     }
+  },
+  {
+    "date": "2023/01/02",
+    "book": {
+      "title": "Avator",
+      "author": "Jimmy"
+    },
+    "person": {
+      "class": "Student",
+      "Name": "John",
+      "id": 546
+    }
   }
 ]
