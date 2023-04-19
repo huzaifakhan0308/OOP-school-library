@@ -22,5 +22,17 @@
       "Name": "shayan",
       "id": 409
     }
+  },
+  {
+    "date": "2023/01/01",
+    "book": {
+      "title": "thor",
+      "author": "John"
+    },
+    "person": {
+      "class": "Student",
+      "Name": "Ermiyas",
+      "id": 59
+    }
   }
 ]
