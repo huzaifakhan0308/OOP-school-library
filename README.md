@@ -35,6 +35,8 @@ School Library is a CLI app write with ruby.
 - **CRUD Book**
 - **OOP Design Patterns**
 - **List rents**
+- **refactor your code.**
+- **preserve data.**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
