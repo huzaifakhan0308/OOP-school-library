@@ -3,7 +3,7 @@ require_relative "../student.rb"
 describe Student do
 
     before(:each) do
-        @student = Student.new(26, "Huzaifa", parent_permission: true)
+        @student = Student.new(26, "Maths", "Ermiyas", parent_permission: true)
     end
 
     describe "#new" do
@@ -16,6 +16,14 @@ describe Student do
         context "when the student" do
             it "checks if the student is playing hooky" do
                 expect(@student.play_hooky).to eq('¯\\(ツ)/¯')
+            end
+        end
+    end
+
+    describe "#classrooms" do
+        context "when the student" do
+            it "checks if the student has a classroom" do
+                expect(@student.classroom).to eq("Maths")
             end
         end
     end
