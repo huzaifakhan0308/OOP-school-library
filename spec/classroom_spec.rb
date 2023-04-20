@@ -14,4 +14,13 @@ describe Classroom do
         end
     end
     
+    describe "#add_students" do
+        context "when the student" do
+        it "checks if the student has a classroom" do
+            @classroom.add_students(@student)
+            expect(@student.classroom).to eq(@classroom)
+        end
+        end
+    end
+    
 end
