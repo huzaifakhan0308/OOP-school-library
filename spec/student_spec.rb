@@ -11,4 +11,12 @@ describe Student do
             expect(@student).to be_an_instance_of(Student)
         end
     end
+
+    describe "#play_hooky" do
+        context "when the student" do
+            it "checks if the student is playing hooky" do
+                expect(@student.play_hooky).to eq('¯\\(ツ)/¯')
+            end
+        end
+    end
 end
