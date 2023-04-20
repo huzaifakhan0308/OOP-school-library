@@ -42,4 +42,12 @@ describe Person do
             end
         end
     end
+    
+    describe "#age" do
+        context "when the person" do
+            it "checks if the person has an age" do
+                expect(@person.age).to be >= 18 
+            end
+        end
+    end
 end
