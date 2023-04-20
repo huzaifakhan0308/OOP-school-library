@@ -1,16 +1,16 @@
 require_relative '../base_decorater'
 
 describe BaseDecorater do
-    before(:each) do
-        @base_decorater = BaseDecorater.new('hello')
+  before(:each) do
+    @base_decorater = BaseDecorater.new('hello')
+  end
+
+  describe '#new' do
+    it 'returns a base decorater object' do
+      expect(@base_decorater).to be_an_instance_of(BaseDecorater)
     end
-    
-    describe '#new' do
-        it 'returns a base decorater object' do
-        expect(@base_decorater).to be_an_instance_of(BaseDecorater)
-        end
-    end
-    end
+  end
+end
 
 describe CapitalizeDecorator do
   before(:each) do
