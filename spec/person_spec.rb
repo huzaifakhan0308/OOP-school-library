@@ -25,4 +25,12 @@ describe Person do
             end
         end
     end
+
+    describe "#correct_name" do
+        context "when the person" do
+            it "checks if the person has a correct name" do
+                expect(@person.correct_name).to eq("Ermiyas")
+            end
+        end
+    end
 end
