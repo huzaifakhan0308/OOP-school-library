@@ -11,4 +11,12 @@ describe Teacher do
             expect(@teacher).to be_an_instance_of(Teacher)
         end
     end
+
+    describe "#can_use_services?" do
+        context "when the teacher" do
+            it "checks if the teacher can use the services" do
+                expect(@teacher.can_use_services?).to be true
+            end
+        end
+    end
 end
