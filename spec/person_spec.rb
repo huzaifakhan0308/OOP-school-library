@@ -33,4 +33,13 @@ describe Person do
             end
         end
     end
+
+    describe "#add_rentals" do
+        context "when the person is a student" do
+            it "checks if the person has a rental" do
+                @rental = Rental.new("2021-01-01", @book, @person)
+                expect(@person.rentals).to include(@rental)
+            end
+        end
+    end
 end
