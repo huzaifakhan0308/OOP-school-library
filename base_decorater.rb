@@ -1,3 +1,5 @@
+require_relative 'nameable'
+
 class BaseDecorater < Nameable
   def initialize(nameable)
     super()
