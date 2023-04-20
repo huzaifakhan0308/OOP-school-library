@@ -17,4 +17,12 @@ describe Person do
             end
         end
     end
+
+    describe "#can_use_services?" do
+        context "when the person" do
+            it "checks if the person can use the services" do
+                expect(@person.can_use_services?).to be true
+            end
+        end
+    end
 end
